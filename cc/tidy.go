@@ -80,7 +80,7 @@ func (tidy *tidyFeature) flags(ctx ModuleContext, flags Flags) Flags {
 	// If explicitly enabled, set flags.Tidy to generate .tidy rules.
 	// Note that libraries and binaries will depend on .tidy files ONLY if
 	// the global WITH_TIDY or ALLOW_LOCAL_TIDY_TRUE is set to true.
-	flags.Tidy = true
+	flags.Tidy = false
 
 	// If explicitly enabled, by global WITH_TIDY or ALLOW_LOCAL_TIDY_TRUE,
 	// set flags.NeedTidyFiles to make this module depend on .tidy files.
