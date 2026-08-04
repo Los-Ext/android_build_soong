@@ -69,7 +69,7 @@ const (
 	NINJA_NINJAGO
 )
 
-var NINJA_DEFAULT ninjaCommandType = NINJA_SISO
+var NINJA_DEFAULT ninjaCommandType = NINJA_NINJA
 
 func (n ninjaCommandType) String() string {
 	switch n {
